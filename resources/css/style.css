@@ -131,3 +131,25 @@ footer img {
   height: 1.5rem;
   margin-right: 1rem;
 }
+
+/* Medium sized screen media query */
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+  #top-nav {
+    width: 100%;
+    /*position: fixed;*/
+  }
+  header h1 {
+    margin-top: 5rem;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    margin-right: 2rem;
+  }
+}
